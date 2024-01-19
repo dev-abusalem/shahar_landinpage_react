@@ -5,6 +5,8 @@ export default {
     extend: {
       colors: {
         primary: "#2D343A",
+        lightprimary: "#D5D6D8",
+        darkgold: "#876A47",
       },
     },
   },

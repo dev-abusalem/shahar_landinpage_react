@@ -20,7 +20,7 @@ const SecondContactForm = () => {
                   <input
                     id="name"
                     type="text"
-                    className="px-3 py-2 rounded-[4px] w-full text-primary"
+                    className="px-3 py-3 rounded-[4px] w-full text-primary"
                   />
                 </div>
 
@@ -31,7 +31,7 @@ const SecondContactForm = () => {
                   <input
                     id="phone"
                     type="text"
-                    className="px-3 py-2 rounded-[4px] w-full  text-primary"
+                    className="px-3 py-3 rounded-[4px] w-full  text-primary"
                   />
                 </div>
                 <div className=" col-span-1">
@@ -41,7 +41,7 @@ const SecondContactForm = () => {
                   <input
                     id="email"
                     type="email"
-                    className="px-3 py-2 rounded-[4px] w-full  text-primary"
+                    className="px-3 py-3 rounded-[4px] w-full  text-primary"
                   />
                 </div>
               </div>
@@ -52,13 +52,13 @@ const SecondContactForm = () => {
                 <textarea
                   id="message"
                   type="text"
-                  className="px-3 py-2 rounded-[4px] w-full  text-primary"
+                  className="px-3 py-3 rounded-[4px] w-full  text-primary"
                   rows="6"
                 ></textarea>
               </div>
 
               <div className="mt-4  text-center ">
-                <button className="py-2 font-bold px-4 w-full md:w-[200px] rounded-[4px] bg-white text-primary">
+                <button className="py-3 font-bold px-4 w-full md:w-[230px] rounded-[4px] bg-darkgold text-white">
                   שלח
                 </button>
               </div>

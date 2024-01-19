@@ -24,7 +24,7 @@ const HowWeDo = () => {
             <div className="hide_img_arrow2 md:ml-0 ml-[45px]">
               <Card
                 tagname="שלב 1"
-                tagclass="bg-primary text-white "
+                tagclass="bg-darkgold text-white "
                 title="בדיקת התאמה"
                 description='הבדיקה ללא עלות, ומבוססת על שיחה עם עו"ד דביר במהלכה היא תברר את פרטי המקרה ותעריך את היתכנות הפיצוי.'
                 className="bg-white text-primary"
@@ -42,7 +42,7 @@ const HowWeDo = () => {
             <div className="md:mt-[20vh] mt-[5vh] md:ml-0 ml-[15px]">
               <Card
                 tagname="שלב 3"
-                tagclass="bg-primary text-white "
+                tagclass="bg-darkgold text-white "
                 title="ניהול התביעה"
                 description="צוות המשרד יעבוד מול הנתבעים, יציג להם הוכחות לזכאות לפיצוי, וינהל משא ומתן. אחד מעורכי הדין של המשרד יתלווה ללקוח לוועדה הרלוונטית לעניינו כדי לייצגו שם."
                 className="bg-white text-primary"

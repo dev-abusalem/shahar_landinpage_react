@@ -4,7 +4,7 @@ import SingleSlider from "./SingleSlider/SingleSlider";
 import bg from "../assets/images/slider-bg.svg";
 const SecondSection = () => {
   return (
-    <section className="md:py-24 py-12 min-h-screen hidden md:block">
+    <section className="md:py-24 py-12 min-h-screen bg-lightprimary hidden md:block">
       <Continer>
         <div className="flex justify-center items-start relative z-50">
           <div>

@@ -28,7 +28,7 @@ const FaqCard = ({ title, desc }) => {
       </div>
       <div>
         {isDescriptionVisible ? (
-          <p className="text-justify shadow-md bg-slate-100 block p-5 mt-1 rounded-md">
+          <p className="text-justify  bg-darkgold text-white block p-5 mt-1 rounded-md">
             {desc}
           </p>
         ) : (
