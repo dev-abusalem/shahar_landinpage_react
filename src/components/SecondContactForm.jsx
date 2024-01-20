@@ -7,7 +7,7 @@ const SecondContactForm = () => {
       <Continer>
         <div className="relative">
           <h1 className="font-semibold md:text-5xl text-3xl text-center">
-            לבדיקת התאמה לתביעה ללא עלות השאירו פרטים:{" "}
+            לבדיקת התאמה לתביעה ללא עלות השאירו<br></br> פרטים:{" "}
           </h1>
 
           <div className="mt-8">
@@ -65,7 +65,7 @@ const SecondContactForm = () => {
             </form>
           </div>
           <img
-            className="absolute md:w-[50%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10"
+            className="absolute md:w-[50%] scale-125 md:scale-100 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10"
             src={bg}
             alt="bg"
           />

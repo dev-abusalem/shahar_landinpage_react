@@ -1,5 +1,6 @@
 import Continer from "../layouts/Continer";
 import bg from "../assets/images/slider-bg.svg";
+import img23 from "/assets/images/img23.svg";
 import Card from "./HowWeDo/Card";
 
 const HowWeDo = () => {
@@ -12,9 +13,9 @@ const HowWeDo = () => {
               כך אנחנו עובדים
             </h3>
             <h1 className="font-semibold md:text-5xl text-4xl mt-4">
-              זהו התהליך שאנו עוברים עם <br></br>לקוחות המשרד:
+              זהו התהליך שאנו עוברים עם לקוחות המשרד:
             </h1>
-            <p className="mt-2">
+            <p className="mt-2 hidden md:block">
               נפגעתם מתאונה, מחלה או פציעה? לא קיבלתם את מלוא הזכויות המגיעות
               לכם?
             </p>
@@ -59,9 +60,14 @@ const HowWeDo = () => {
             </div>
           </div>
           <img
-            className="absolute w-[50%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10"
+            className="absolute hidden md:block w-[50%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10"
             src={bg}
             alt="bg"
+          />
+          <img
+            className="absolute md:hidden block  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10"
+            src={img23}
+            alt="img23"
           />
         </div>
       </Continer>
