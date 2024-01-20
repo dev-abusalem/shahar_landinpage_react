@@ -7,7 +7,7 @@ const SecondContactForm = () => {
       <Continer>
         <div className="relative">
           <h1 className="font-semibold md:text-5xl text-3xl text-center">
-            לבדיקת התאמה לתביעה ללא עלות השאירו<br></br> פרטים:
+            לבדיקת התאמה לתביעה ללא עלות השאירו פרטים:{" "}
           </h1>
 
           <div className="mt-8">
@@ -15,7 +15,7 @@ const SecondContactForm = () => {
               <div className=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center items-center gap-4 ">
                 <div className=" col-span-1">
                   <label htmlFor="name" className="block mb-1.5 font-semibold">
-                    שם מלא
+                    שם מלא{" "}
                   </label>
                   <input
                     id="name"
@@ -26,7 +26,7 @@ const SecondContactForm = () => {
 
                 <div className=" col-span-1">
                   <label htmlFor="phone" className="block mb-1.5 font-semibold">
-                    טלפון נייד
+                    טלפון נייד{" "}
                   </label>
                   <input
                     id="phone"
@@ -36,7 +36,7 @@ const SecondContactForm = () => {
                 </div>
                 <div className=" col-span-1">
                   <label htmlFor="email" className="block mb-1.5 font-semibold">
-                    אימייל
+                    אימייל{" "}
                   </label>
                   <input
                     id="email"
@@ -47,7 +47,7 @@ const SecondContactForm = () => {
               </div>
               <div className="mt-4">
                 <label htmlFor="message" className="block mb-1.5 font-semibold">
-                  איך נוכל לעזור?
+                  איך נוכל לעזור?{" "}
                 </label>
                 <textarea
                   id="message"
@@ -59,7 +59,7 @@ const SecondContactForm = () => {
 
               <div className="mt-4  text-center ">
                 <button className="py-3 font-bold px-4 w-full md:w-[230px] rounded-[4px] bg-darkgold text-white">
-                  שלח
+                  שלח{" "}
                 </button>
               </div>
             </form>

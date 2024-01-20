@@ -48,7 +48,7 @@ body {
   top: 50% !important;
   left: 50% !important;
   transform: translate(-50%, -50%) !important;
-  background: url("../rightarrow.svg") !important;
+  background: url("../rightarrow2.svg") !important;
   width: 40px !important;
   height: 40px !important;
   background-position: center center !important;
@@ -121,7 +121,7 @@ body {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: transparent;
 
   /* Center slide text vertically */
   display: flex;
@@ -140,15 +140,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-/* .swiper-pagination-fraction,
-.swiper-pagination-custom,
-.swiper-horizontal > .swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal {
-  bottom: var(--swiper-pagination-bottom, -4px) !important;
-  top: var(--swiper-pagination-top, auto);
-  left: 0;
-  width: 100%;
-} */
+
 .swiper-button-prev,
 .swiper-button-next {
   position: absolute;
@@ -177,12 +169,21 @@ body {
 .swiper-button-prev::after,
 .swiper-button-next::after {
   font-family: swiper-icons;
-  font-size: 24px !important;
+  font-size: 20px !important;
   text-transform: none !important;
   letter-spacing: 0;
   font-variant: initial;
   line-height: 1;
   font-weight: bold !important;
+}
+
+.swiper-rtl .swiper-button-prev {
+  right: var(--swiper-navigation-sides-offset, -5px) !important;
+  left: auto;
+}
+.swiper-rtl .swiper-button-next {
+  left: var(--swiper-navigation-sides-offset, -5px) !important;
+  right: auto;
 }
 @media screen and (max-width: 830px) {
   [dir="rtl"] .slick-next {
@@ -194,13 +195,13 @@ body {
     left: auto;
     right: -75px !important;
   }
-  .slick-prev::after {
+  .slick-next::after {
     content: "";
     position: absolute !important;
     top: 50% !important;
     left: 50% !important;
     transform: translate(-50%, -50%) !important;
-    background: url("../mobrightarrow.svg") !important;
+    background: url("../mobileleftarrow.png") !important;
     width: 40px !important;
     height: 40px !important;
     background-position: center center !important;
@@ -214,7 +215,7 @@ body {
     top: 50% !important;
     left: 50% !important;
     transform: translate(-50%, -50%) !important;
-    background: url("../mobrightarrow.svg") !important;
+    background: url("../rightarrow.svg") !important;
     width: 40px !important;
     height: 40px !important;
     background-position: center center !important;

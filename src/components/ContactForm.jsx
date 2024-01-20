@@ -7,7 +7,7 @@ const ContactForm = () => {
         <div className="">
           <h1 className="font-semibold md:text-5xl text-3xl text-center">
             נפגעתם בתאונה, חליתם או נפצעתם ואיבדתם את כושר ההשתכרות? לא קיבלתם
-            את מלוא זכויותיכם? השאירו פרטים כדי להתחיל בתהליך:
+            את מלוא זכויותיכם? השאירו פרטים כדי להתחיל בתהליך:{" "}
           </h1>
 
           <div className="mt-8">
@@ -15,7 +15,7 @@ const ContactForm = () => {
               <div className=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center items-center gap-4 ">
                 <div className=" col-span-1">
                   <label htmlFor="name" className="block mb-1.5 font-semibold">
-                    שם מלא
+                    שם מלא{" "}
                   </label>
                   <input
                     id="name"
@@ -26,7 +26,7 @@ const ContactForm = () => {
 
                 <div className=" col-span-1">
                   <label htmlFor="phone" className="block mb-1.5 font-semibold">
-                    טלפון נייד
+                    טלפון נייד{" "}
                   </label>
                   <input
                     id="phone"
@@ -36,7 +36,7 @@ const ContactForm = () => {
                 </div>
                 <div className=" col-span-1">
                   <label htmlFor="email" className="block mb-1.5 font-semibold">
-                    שם מלא
+                    אימייל{" "}
                   </label>
                   <input
                     id="email"
@@ -47,7 +47,7 @@ const ContactForm = () => {
               </div>
               <div className="mt-4">
                 <label htmlFor="message" className="block mb-1.5 font-semibold">
-                  איך נוכל לעזור?
+                  איך נוכל לעזור?{" "}
                 </label>
                 <textarea
                   id="message"

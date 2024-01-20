@@ -8,7 +8,7 @@ import SingleSlider from "./SingleSlider/SingleSlider";
 
 const MobileSlider = () => {
   return (
-    <section className="md:py-24 py-12 block md:hidden ">
+    <section className="md:py-24 py-12  bg-lightprimary block md:hidden ">
       <Continer>
         <div className=" relative z-50">
           <div className="text-center relative z-50">

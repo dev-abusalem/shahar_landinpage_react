@@ -3,7 +3,7 @@
 const SingleSlider = ({ title, description, imageUrl }) => {
   return (
     <>
-      <div className=" min-h-[250px] item text-right p-6 rounded-xl mb-2 md:mb-0 ">
+      <div className=" min-h-[250px] item text-right p-6 px-10 md:px-6 rounded-xl mb-2 md:mb-0 ">
         <div className="w-12 h-12 img_wrapper relative mb-2">
           <img
             src={imageUrl}

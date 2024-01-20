@@ -4,14 +4,14 @@ import FaqCard from "./Faqs/FaqCard";
 
 const Faqs = () => {
   return (
-    <section className="  md:py-16 py-10  ">
+    <section className="  md:py-16 py-10  bg-lightprimary ">
       <Continer>
         <div className="relative">
           <h3 className="font-semibold md:text-2xl text-xl text-center">
-            כך אנחנו עובדים
+            שאלות ותשובות{" "}
           </h3>
           <h1 className="font-semibold md:text-5xl text-3xl text-center">
-            לבדיקת התאמה לתביעה ללא עלות השאירו<br></br> פרטים:
+            כאן נענה על כל השאלות החשובות שאולי יש לכם.
           </h1>
 
           <div className="mt-8 mx-auto max-w-4xl">
