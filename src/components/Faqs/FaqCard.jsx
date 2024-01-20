@@ -12,7 +12,7 @@ const FaqCard = ({ title, desc }) => {
   return (
     <div>
       <div
-        className="flex justify-between items-center border shadow-sm border-primary rounded-lg px-2"
+        className="flex justify-between items-center border shadow-sm bg-white border-primary rounded-lg px-2"
         onClick={toggleDescription}
       >
         <h2 className="font-bold texl-xl mb-1 mt-1 w-full cursor-pointer py-2">
